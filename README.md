@@ -22,11 +22,11 @@
 Класс DBManager должен использовать библиотеку psycopg2 для работы с БД.
 
 **_Для подключения к БД PostgreSQL необходимо создать конфигурационный файл database.ini_**
-    [postgresql]
-    host=localhost
-    user=postgres
-    password=user_password
-    port=5432
+[postgresql]
+host=localhost
+user=postgres
+password=user_password
+port=5432
 **_Этот файл надо добавить в .gitignore._**
 
 **Критерии оценки**
